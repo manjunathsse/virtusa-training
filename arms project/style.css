@@ -1,0 +1,60 @@
+.body{
+    position: relative;
+    
+    
+}
+
+.main{
+    display: inline-block;
+    background-color: #C4D0D2;
+    margin-left: auto;
+    position: absolute;
+    top:20%;
+    left: 35%;
+    width: 400px;
+
+}
+.logo{
+    padding: 30px;
+    text-align: center;
+}
+
+h3{
+    color:#70A7D0;
+    text-align: center;
+    padding: 5px;
+}
+
+.ff{
+    padding: 10px;
+    margin-left: 6%;
+}
+
+input{
+    width: 90%;
+    padding:10px 5px 10px 5px;
+    border: 0px;
+    background-color: #EDE1D1;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.but{
+    margin-left: 9%;
+    margin-bottom: 10px;
+}
+
+.but input{
+    background-color: lightskyblue;
+    width: 100%;
+    padding: 15px;
+    color: white;
+}
+
+.but input:hover{
+    background-color:#3B9C96;
+}
+
