@@ -1,0 +1,152 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 2em;
+    color: #333;
+    font-weight: 400;
+    background: #fff;
+    margin: 0;
+}
+
+.columns-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.left-col-block{
+    width: 50%;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    left:0;
+}
+
+.rigth-col-block{
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+
+.header{
+    padding:0;
+    margin: 0;
+    height: 100vh;
+    vertical-align: middle;
+    position: relative;
+}
+
+.header .profile-image:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom:0;
+    background: linear-gradient(-30deg,
+    rgba(42, 84, 250, 0.5) 0%, rgba(42, 84, 250, 0.5)20%, transparent 30%,
+    transparent 100%);
+}
+    
+.header .profile-image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(prof.1.jpg);
+    background-size: cover;
+    background-position: top center;
+    z-index: -2;
+}
+
+.header .content{
+    position: absolute;
+    left: 0;
+    bottom: 30%;
+    right: 0 ;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10%;
+}
+
+.header .content h1{
+    font-size: 34px;
+    color: whitesmoke;
+    line-height: 1;
+    margin: 0;
+}
+
+.header .content p{
+    font-size: 25px;
+    color: #fff;
+    line-height: 1;
+    margin: 0;
+}
+
+.header .content .social-icon{
+    margin: 0;
+    padding: 5%;
+    display: block;
+}
+
+.header .content .social-icon li{
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.header .content .social-icon li a{
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+
+.section-wrapper{
+    padding: 50px;
+}
+
+.section-title{
+    margin-bottom: 15px;
+}
+
+.skill{
+    padding: 10px;
+}
+
+h5{
+    color:#A81321 !important;
+    font-size: x-large !important;
+}
+.carousel-inner p{
+    color:#A81321 !important;
+}
+
+.education{
+    background-color: lightgrey;
+}
+
+.projects{
+    background-color: lightgrey;
+}
+
+.blue{
+    background-color: #F0F0F0;
+}
+
+@media (maxwidth:600px) {
+    .left-col-block{
+        width: 100%;
+        position: relative;
+    }
+    .rigth-col-block{
+        width: 100%;
+        position: relative;
+    }
+}
